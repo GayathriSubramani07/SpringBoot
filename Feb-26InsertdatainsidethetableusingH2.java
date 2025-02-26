@@ -196,7 +196,7 @@ marks INT
             <scope>runtime</scope>
         </dependency>
 
-       H2 Database (optional, for testing purposes)
+       <!--  H2 Database -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
