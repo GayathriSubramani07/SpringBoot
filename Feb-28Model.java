@@ -149,6 +149,10 @@ public class HomeController {
 <body>
     <div class="container">
         <h2>Result is:   <%=session.getAttribute("result")%></h2>
+
+	//if i created a jsp file inside the /WEB-INF/views/ i need to use this line  <h2>Result is:${result}</h2>
+
+
         
     </div>
 </body>
