@@ -126,7 +126,7 @@ public class HomeController {
 	public String add(@RequestParam("num1") int  num,@RequestParam("num2")int n ,HttpSession session) {
 		
 		int result=num+n;
-		session.setAttribute("result", result);
+		
 		System.out.println(result);
 		
 		
