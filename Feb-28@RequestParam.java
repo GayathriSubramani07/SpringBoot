@@ -123,7 +123,7 @@ public class HomeController {
 	}
 	
 	@RequestMapping("add")
-	public String add(@RequestParam("num1") int  num,@RequestParam("num2")int n ,HttpSession session) {
+	public String add(@RequestParam("num1") int  num,@RequestParam("num2")int n ) {
 		
 		int result=num+n;
 		
